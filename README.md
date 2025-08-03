@@ -3,6 +3,8 @@
 
 A simple Flask-based API that generates short codes for long URLs, tracks clicks, and provides analytics like bit.ly or tinyurl.
 
+---
+
 2. 🚀 Getting Started / Setup Instructions
 ## 🚀 Getting Started
 
@@ -36,6 +38,8 @@ The API will be available at:
 | GET    | `/api/health`             | Health check for API          |
 | GET    | `/`                       | Service health info           |
 
+---
+
 4. 🧪 Testing
 ## 🧪 Run Tests
 pytest
@@ -55,9 +59,21 @@ Analytics check
 ---
 
 ### 5. 🛠️ **Project Structure**
-## 📁 Project Structure
+## 🧱 Project Structure
 
-<pre> ```text url-shortener/ ├── app/ │ ├── main.py # Main Flask app (routes & logic) │ ├── utils.py # URL validator & short code generator │ └── models.py # In-memory URL store ├── tests/ │ └── test_basic.py # Pytest unit tests for core features ├── requirements.txt # Project dependencies ├── README.md # Project documentation └── CHANGES.md # AI usage notes & implementation summary ``` </pre>
+```text
+url-shortener/
+├── app/
+│   ├── main.py        # Main Flask app (routes & logic)
+│   ├── utils.py       # URL validator & short code generator
+│   └── models.py      # In-memory URL store
+├── tests/
+│   └── test_basic.py  # Pytest unit tests for core features
+├── requirements.txt   # Project dependencies
+├── README.md          # Project documentation
+└── CHANGES.md         # AI usage notes & implementation summary
+```
+---
 
 6. 🤖 AI Usage Declaration
 ## 🤖 AI Usage Declaration
@@ -65,6 +81,8 @@ Analytics check
 - ChatGPT was used to clarify Flask, routing, thread safety, and test structuring.
 - All code was manually reviewed and tested.
 - No AI-generated code was copy-pasted blindly.
+
+---
 
 ## ✅ Sample Curl Request
 
