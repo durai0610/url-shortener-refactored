@@ -45,19 +45,19 @@ The API will be available at:
 
 4. 🧪 Testing
 ## 🧪 Run Tests
-pytest
+- pytest
 
-The test suite includes:
+- The test suite includes:
 
-URL shortening
+- URL shortening
 
-Redirection
+- Redirection
 
-Invalid URL handling
+- Invalid URL handling
 
-Missing data handling
+- Missing data handling
 
-Analytics check
+- Analytics check
 
 ---
 
