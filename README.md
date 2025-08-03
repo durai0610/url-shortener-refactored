@@ -17,8 +17,9 @@ A simple Flask-based API that generates short codes for long URLs, tracks clicks
 cd url-shortener
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 🧪 Run the Application
 python -m flask --app app.main run
 
