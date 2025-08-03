@@ -57,16 +57,7 @@ Analytics check
 ### 5. 🛠️ **Project Structure**
 ## 📁 Project Structure
 
-url-shortener/
-├── app/
-│   ├── main.py        # Main Flask app (routes & logic)
-│   ├── utils.py       # URL validator & short code generator
-│   ├── models.py      # In-memory URL store
-├── tests/
-│   └── test_basic.py  # Pytest unit tests for core features
-├── requirements.txt   # Project dependencies
-├── README.md          # Project documentation
-├── CHANGES.md         # AI usage notes & implementation summary
+<pre> ```text url-shortener/ ├── app/ │ ├── main.py # Main Flask app (routes & logic) │ ├── utils.py # URL validator & short code generator │ └── models.py # In-memory URL store ├── tests/ │ └── test_basic.py # Pytest unit tests for core features ├── requirements.txt # Project dependencies ├── README.md # Project documentation └── CHANGES.md # AI usage notes & implementation summary ``` </pre>
 
 6. 🤖 AI Usage Declaration
 ## 🤖 AI Usage Declaration
